@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
         - name: fiber-fx
-          image: regiszanandrea/fiber-fx:latest
+          image: fiber-fx
           ports:
             - containerPort: 80
           resources:
