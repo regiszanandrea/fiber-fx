@@ -4,7 +4,7 @@ import "github.com/gofiber/fiber/v2"
 
 func List(c *fiber.Ctx) error {
 	return c.JSON(fiber.Map{
-		"name": "Philip",
+		"name": "John",
 		"age":  20,
 	})
 }
