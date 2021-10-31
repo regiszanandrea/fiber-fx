@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fiber-fx-deployment
+spec:
+  replicas: 6
+  template:
+    metadata:
+      name: fiber-fx
+      labels:
+        app: fiber-fx
+    spec:
+      containers:
+        - name: fiber-fx
+          image: regiszanandrea/fiber-fx:latest
+          ports:
+            - containerPort: 80
+          resources:
+            requests:
+              cpu: "10m"
+              memory: "256Mi"
+            limits:
+              cpu: "20m"
+              memory: "512Mi"
+  selector:
+    matchLabels:
+      app: fiber-fx
