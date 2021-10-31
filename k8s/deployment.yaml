@@ -1,9 +1,10 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: argoproj.io/v1alpha1
+kind: Rollout
 metadata:
   name: fiber-fx-deployment
 spec:
   replicas: 6
+  revisionHistoryLimit: 3
   template:
     metadata:
       name: fiber-fx
@@ -25,3 +26,17 @@ spec:
   selector:
     matchLabels:
       app: fiber-fx
+  strategy:
+    canary:
+      maxUnavailable: 0
+      steps:
+      - setWeight: 20
+      - pause:
+          duration: "1m"
+      - setWeight: 40
+      - pause:
+          duration: "1m"
+      - setWeight: 80
+      - pause:
+          duration: "2m"
+      - setWeight: 100
