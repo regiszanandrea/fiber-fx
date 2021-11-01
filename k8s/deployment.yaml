@@ -4,7 +4,6 @@ metadata:
   name: fiber-fx-deployment
 spec:
   replicas: 6
-  revisionHistoryLimit: 3
   template:
     metadata:
       labels:
@@ -25,16 +24,15 @@ spec:
   selector:
     matchLabels:
       app: fiber-fx
+  minReadySeconds: 30
+  revisionHistoryLimit: 3
   strategy:
-    canary:
+    canary: #Indicates that the rollout should use the Canary strategy
+      maxSurge: "25%"
       maxUnavailable: 0
       steps:
+      - setWeight: 10
+      - pause:
+          duration: 30s # 1 hour
       - setWeight: 20
-      - pause:
-          duration: "30s"
-      - setWeight: 40
-      - pause:
-          duration: "30s"
-      - setWeight: 80
-      - pause:
-          duration: "1m"
+      - pause: {} # pause indefinitely
