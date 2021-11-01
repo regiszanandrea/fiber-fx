@@ -7,7 +7,6 @@ spec:
   revisionHistoryLimit: 3
   template:
     metadata:
-      name: fiber-fx
       labels:
         app: fiber-fx
     spec:
