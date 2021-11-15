@@ -9,4 +9,4 @@ namespace: fiber-fx
 images:
 - name: fiber-fx
   newName: regiszanandrea/fiber-fx
-  newTag: 08dabcd0165a1084b9ec8233be0caddb7c8f0bd9
+  newTag: b71e6639b423537667309ae8e6a6c5405f695997
