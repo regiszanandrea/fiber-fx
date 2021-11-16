@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/regiszanandrea/fiber-fx/compare/1.1.0...1.1.1) (2021-11-16)
+
+
+### Bug Fixes
+
+* git tag ([bd82a6c](https://github.com/regiszanandrea/fiber-fx/commit/bd82a6ca64929a9f6b9480baab24223385c380f0))
+
 # [1.1.0](https://github.com/regiszanandrea/fiber-fx/compare/1.0.0...1.1.0) (2021-11-16)
 
 
