@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/regiszanandrea/fiber-fx/compare/1.0.0...1.1.0) (2021-11-16)
+
+
+### Bug Fixes
+
+* get tag ([8fcac4b](https://github.com/regiszanandrea/fiber-fx/commit/8fcac4b3bac92d5ea72f8fbbe84c9fcd2c7a04fb))
+
+
+### Features
+
+* update lock info ([0d12e47](https://github.com/regiszanandrea/fiber-fx/commit/0d12e472aca5de09cc158c4d230aaf866d7b787f))
+
 # 1.0.0 (2021-11-16)
 
 
