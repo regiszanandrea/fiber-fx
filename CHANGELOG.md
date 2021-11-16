@@ -1,3 +1,15 @@
+# [1.4.0](https://github.com/regiszanandrea/fiber-fx/compare/1.3.0...1.4.0) (2021-11-16)
+
+
+### Bug Fixes
+
+* cd trigger ([22fdf96](https://github.com/regiszanandrea/fiber-fx/commit/22fdf96510f84b0c43eff0aa975525b6d1700403))
+
+
+### Features
+
+* add new user ([854f1ae](https://github.com/regiszanandrea/fiber-fx/commit/854f1aedb16965932a11ee8a95673eb025d808e2))
+
 # [1.3.0](https://github.com/regiszanandrea/fiber-fx/compare/1.2.2...1.3.0) (2021-11-16)
 
 
