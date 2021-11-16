@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/regiszanandrea/fiber-fx/compare/1.4.0...1.5.0) (2021-11-16)
+
+
+### Features
+
+* add pull request workflow ([11a5911](https://github.com/regiszanandrea/fiber-fx/commit/11a591195515a2c63a586b1bc750a188cf916e33))
+
 # [1.4.0](https://github.com/regiszanandrea/fiber-fx/compare/1.3.0...1.4.0) (2021-11-16)
 
 
