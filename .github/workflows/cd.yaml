@@ -1,30 +1,21 @@
 name: CD
 on:
   push:
-    branches: [main]
+    tags:
+      - '*'
 jobs:
-  build:
-    name: Build
-    runs-on: ubuntu-latest
-    steps:
-      - name: checkout
-        uses: actions/checkout@v2
-      
-      - name: build image and push to docker hub
-        uses: docker/build-push-action@v1.1.0
-        with:
-          username: regiszanandrea
-          password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: regiszanandrea/fiber-fx
-          tags: ${{ github.sha }}, latest     
-
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
-    needs: build   
     steps:
       - name: checkout
         uses: actions/checkout@v2
+
+      - name: Get tag
+        id: tag
+        uses: dawidd6/action-get-tag@v1
+        with:
+          strip_v: true
       
       - name: kustomize
         uses: imranismail/setup-kustomize@v1
@@ -34,7 +25,7 @@ jobs:
       - name: update k8s
         run: |
           cd k8s
-          kustomize edit set image fiber-fx=regiszanandrea/fiber-fx:${{ github.sha }}
+          kustomize edit set image fiber-fx=regiszanandrea/fiber-fx:${{steps.tag.outputs.tag}}
           cat kustomization.yaml
       - name: commit
         run: |

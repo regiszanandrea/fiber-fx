@@ -1,0 +1,37 @@
+name: CI
+on:
+  push:
+    branches: [main]
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: install dependencies
+        run: npm install
+
+      - name: generate release
+        run: npx semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+      - name: Get tag
+        id: tag
+        uses: dawidd6/action-get-tag@v1
+        with:
+          strip_v: true
+      
+      - name: build image and push to docker hub
+        uses: docker/build-push-action@v1.1.0
+        with:
+          username: regiszanandrea
+          password: ${{ secrets.DOCKER_PASSWORD }}
+          repository: regiszanandrea/fiber-fx
+          tags: ${{steps.tag.outputs.tag}}, latest
