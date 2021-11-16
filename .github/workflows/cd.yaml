@@ -6,8 +6,10 @@ on:
   create:
     tags:
       - '*'
-  workflow_dispatch:
-  
+  release:
+    types:
+      - created
+
 jobs:
   deploy:
     name: Deploy
