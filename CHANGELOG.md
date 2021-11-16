@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/regiszanandrea/fiber-fx/compare/1.6.0...1.7.0) (2021-11-16)
+
+
+### Features
+
+* add service port name ([51ab8ec](https://github.com/regiszanandrea/fiber-fx/commit/51ab8ec95f0fd59f689bdf244d66e05c10e5d57d))
+
 # [1.6.0](https://github.com/regiszanandrea/fiber-fx/compare/1.5.0...1.6.0) (2021-11-16)
 
 
