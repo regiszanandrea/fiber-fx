@@ -1,11 +1,5 @@
 name: CD
 on:
-  push:
-    tags:
-      - '*'
-  create:
-    tags:
-      - '*'
   release:
     types:
       - created
