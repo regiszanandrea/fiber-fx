@@ -22,13 +22,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
-      - name: Set env
-        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
       
-      - name: build image and push to docker hub
-        uses: docker/build-push-action@v1.1.0
-        with:
-          username: regiszanandrea
-          password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: regiszanandrea/fiber-fx
-          tags: ${{ env.RELEASE_VERSION }}, latest

@@ -2,7 +2,7 @@ name: CD
 on:
   push:
     tags:
-      - '*'
+      - '**'
 jobs:
   deploy:
     name: Deploy
@@ -16,6 +16,14 @@ jobs:
         uses: dawidd6/action-get-tag@v1
         with:
           strip_v: false
+      
+      - name: build image and push to docker hub
+        uses: docker/build-push-action@v1.1.0
+        with:
+          username: regiszanandrea
+          password: ${{ secrets.DOCKER_PASSWORD }}
+          repository: regiszanandrea/fiber-fx
+          tags: ${{steps.tag.outputs.tag}}, latest
       
       - name: kustomize
         uses: imranismail/setup-kustomize@v1
