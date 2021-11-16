@@ -5,7 +5,8 @@ metadata:
 spec:
   type: NodePort
   ports:
-    - port: 9090
+    - name: http-fiber-fx
+      port: 9090
       targetPort: 8080
   selector:
     app: fiber-fx
