@@ -22,7 +22,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
 
-      - name: Get tag
+      - name: get tag
         id: tag
         uses: dawidd6/action-get-tag@v1
         with:
