@@ -1,3 +1,11 @@
+# [1.6.0](https://github.com/regiszanandrea/fiber-fx/compare/1.5.0...1.6.0) (2021-11-16)
+
+
+### Features
+
+* add teste user ([fa8be36](https://github.com/regiszanandrea/fiber-fx/commit/fa8be36d5f331bd1f8e174a166cc13557d4e66e2))
+* rename test workflow ([3b4eb5a](https://github.com/regiszanandrea/fiber-fx/commit/3b4eb5aae428519b991c9d016b952ab535b9a4b8))
+
 # [1.5.0](https://github.com/regiszanandrea/fiber-fx/compare/1.4.0...1.5.0) (2021-11-16)
 
 
