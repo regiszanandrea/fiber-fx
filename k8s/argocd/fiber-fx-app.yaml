@@ -1,0 +1,25 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+
+metadata:
+  name: fiber-fx
+  namespace: argocd
+
+spec:
+  project: default
+  source:
+    repoURL: https://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@github.com/regiszanandrea/fiber-fx.git
+    targetRevision: HEAD
+    path: ./k8s
+    directory:
+      recurse: false
+  destination:
+    server: "https://kubernetes.default.svc"
+    namespace: fiber-fx
+  syncPolicy:
+    automated:
+      prune: true
+    syncOptions:
+      - PruneLast=true
+      - CreateNamespace=true
+      - PrunePropagationPolicy=background
