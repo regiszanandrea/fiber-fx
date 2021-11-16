@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/regiszanandrea/fiber-fx/compare/1.2.2...1.3.0) (2021-11-16)
+
+
+### Features
+
+* add release event trigger ([12ba952](https://github.com/regiszanandrea/fiber-fx/commit/12ba952d3213a397944fb0fca19151ad86ae2346))
+
 ## [1.2.2](https://github.com/regiszanandrea/fiber-fx/compare/1.2.1...1.2.2) (2021-11-16)
 
 
