@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/regiszanandrea/fiber-fx/compare/1.1.2...1.2.0) (2021-11-16)
+
+
+### Features
+
+* add push image to CD ([8505632](https://github.com/regiszanandrea/fiber-fx/commit/8505632f02db9657e3d122f51db131cbf1aafd7d))
+
 ## [1.1.2](https://github.com/regiszanandrea/fiber-fx/compare/1.1.1...1.1.2) (2021-11-16)
 
 
