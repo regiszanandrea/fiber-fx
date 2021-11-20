@@ -1,3 +1,10 @@
+## [1.9.5](https://github.com/regiszanandrea/fiber-fx/compare/1.9.4...1.9.5) (2021-11-20)
+
+
+### Bug Fixes
+
+* namespace ([a8dd3e0](https://github.com/regiszanandrea/fiber-fx/commit/a8dd3e0e54ffe000f849f648495602be34c6472d))
+
 ## [1.9.4](https://github.com/regiszanandrea/fiber-fx/compare/1.9.3...1.9.4) (2021-11-20)
 
 
