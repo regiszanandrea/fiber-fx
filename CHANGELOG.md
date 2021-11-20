@@ -1,3 +1,10 @@
+## [1.9.6](https://github.com/regiszanandrea/fiber-fx/compare/1.9.5...1.9.6) (2021-11-20)
+
+
+### Bug Fixes
+
+* svc address ([1b13a41](https://github.com/regiszanandrea/fiber-fx/commit/1b13a41a610b2b1d265d67f599f0fb2566ce1757))
+
 ## [1.9.5](https://github.com/regiszanandrea/fiber-fx/compare/1.9.4...1.9.5) (2021-11-20)
 
 
