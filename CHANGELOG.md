@@ -1,3 +1,10 @@
+## [1.9.1](https://github.com/regiszanandrea/fiber-fx/compare/1.9.0...1.9.1) (2021-11-20)
+
+
+### Bug Fixes
+
+* change namespace on kustomization ([7fcf9ed](https://github.com/regiszanandrea/fiber-fx/commit/7fcf9ed0466be64a4ef4b05b25a1e5a738662db8))
+
 # [1.9.0](https://github.com/regiszanandrea/fiber-fx/compare/1.8.0...1.9.0) (2021-11-20)
 
 
