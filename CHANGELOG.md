@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/regiszanandrea/fiber-fx/compare/1.8.0...1.9.0) (2021-11-20)
+
+
+### Features
+
+* remove create namespace on argocd application ([19165f0](https://github.com/regiszanandrea/fiber-fx/commit/19165f0f01791835cb0880f64bb094903954a409))
+
 # [1.8.0](https://github.com/regiszanandrea/fiber-fx/compare/1.7.0...1.8.0) (2021-11-20)
 
 
