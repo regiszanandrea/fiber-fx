@@ -1,0 +1,31 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: Gateway
+metadata:
+  name: fiber-fx-gateway
+spec:
+  selector:
+    istio: ingressgateway # use istio default controller
+  servers:
+  - port:
+      number: 80
+      name: http
+      protocol: HTTP
+    hosts:
+    - "*"
+---
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: fiber-fx
+spec:
+  hosts:
+    - "*"
+  gateways:
+    - fiber-fx-gateway
+  http:
+    - name: primary
+      route:
+      - destination:
+          host: svc-fiber-fx
+          port:
+            number: 9090

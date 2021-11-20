@@ -15,7 +15,7 @@ spec:
       recurse: false
   destination:
     server: "https://kubernetes.default.svc"
-    namespace: fiber-fx
+    namespace: default
   syncPolicy:
     automated:
       prune: true
