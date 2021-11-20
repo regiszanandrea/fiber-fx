@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: svc-fiber-fx
 spec:
-  type: NodePort
   ports:
     - name: http-fiber-fx
       port: 9090
