@@ -28,6 +28,6 @@ spec:
     - name: primary
       route:
       - destination:
-          host: svc-fiber-fx.fiber-fx
+          host: svc-fiber-fx.fiber-fx.svc.cluster.local
           port:
             number: 9090
