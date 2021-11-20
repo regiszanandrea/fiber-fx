@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/regiszanandrea/fiber-fx/compare/1.9.1...1.9.2) (2021-11-20)
+
+
+### Bug Fixes
+
+* change gateway namespace ([c76cfab](https://github.com/regiszanandrea/fiber-fx/commit/c76cfab4f94ee107877411f95063436147672e67))
+
 ## [1.9.1](https://github.com/regiszanandrea/fiber-fx/compare/1.9.0...1.9.1) (2021-11-20)
 
 
