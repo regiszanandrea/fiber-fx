@@ -2,7 +2,7 @@ apiVersion: networking.istio.io/v1alpha3
 kind: Gateway
 metadata:
   name: fiber-fx-gateway
-  namespace: argocd
+  namespace: istio-system
 spec:
   selector:
     istio: ingressgateway # use istio default controller
@@ -18,7 +18,7 @@ apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
 metadata:
   name: fiber-fx
-  namespace: argocd
+  namespace: istio-system
 spec:
   hosts:
     - "*"
