@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/regiszanandrea/fiber-fx/compare/1.7.0...1.8.0) (2021-11-20)
+
+
+### Features
+
+* add istio ([0943656](https://github.com/regiszanandrea/fiber-fx/commit/0943656052cf2906cecf6fbd32a25bc29452307a))
+
 # [1.7.0](https://github.com/regiszanandrea/fiber-fx/compare/1.6.0...1.7.0) (2021-11-16)
 
 
