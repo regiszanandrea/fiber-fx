@@ -1,3 +1,10 @@
+## [1.10.7](https://github.com/regiszanandrea/fiber-fx/compare/1.10.6...1.10.7) (2021-12-04)
+
+
+### Bug Fixes
+
+* remove full path ([d0f1500](https://github.com/regiszanandrea/fiber-fx/commit/d0f1500341900d6d34dd15bdf4578625cab520b9))
+
 ## [1.10.6](https://github.com/regiszanandrea/fiber-fx/compare/1.10.5...1.10.6) (2021-12-04)
 
 
