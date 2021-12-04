@@ -1,3 +1,10 @@
+## [1.10.11](https://github.com/regiszanandrea/fiber-fx/compare/1.10.10...1.10.11) (2021-12-04)
+
+
+### Bug Fixes
+
+* force cluster local ([0e28da6](https://github.com/regiszanandrea/fiber-fx/commit/0e28da6d4f0eb2f3f66a11a6520d4ac9fb55e5a4))
+
 ## [1.10.10](https://github.com/regiszanandrea/fiber-fx/compare/1.10.9...1.10.10) (2021-12-04)
 
 
