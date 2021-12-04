@@ -1,3 +1,10 @@
+## [1.10.2](https://github.com/regiszanandrea/fiber-fx/compare/1.10.1...1.10.2) (2021-12-04)
+
+
+### Bug Fixes
+
+* virtual service namespace ([1dba007](https://github.com/regiszanandrea/fiber-fx/commit/1dba0072a26fac321582e8f78a91b829dd3cfe26))
+
 ## [1.10.1](https://github.com/regiszanandrea/fiber-fx/compare/1.10.0...1.10.1) (2021-12-04)
 
 
