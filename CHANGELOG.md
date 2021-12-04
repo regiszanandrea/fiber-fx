@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/regiszanandrea/fiber-fx/compare/1.11.0...1.12.0) (2021-12-04)
+
+
+### Features
+
+* app new version ([5f13203](https://github.com/regiszanandrea/fiber-fx/commit/5f13203f698c00bc31e1db9704547601047576aa))
+
 # [1.11.0](https://github.com/regiszanandrea/fiber-fx/compare/1.10.11...1.11.0) (2021-12-04)
 
 
