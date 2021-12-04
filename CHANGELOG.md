@@ -1,3 +1,10 @@
+## [1.10.1](https://github.com/regiszanandrea/fiber-fx/compare/1.10.0...1.10.1) (2021-12-04)
+
+
+### Bug Fixes
+
+* virtual service reference ([c8a3a5e](https://github.com/regiszanandrea/fiber-fx/commit/c8a3a5ef9f97517aed246ad05665cb161ab9d7ef))
+
 # [1.10.0](https://github.com/regiszanandrea/fiber-fx/compare/1.9.8...1.10.0) (2021-12-04)
 
 
