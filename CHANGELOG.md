@@ -1,3 +1,10 @@
+## [1.10.9](https://github.com/regiszanandrea/fiber-fx/compare/1.10.8...1.10.9) (2021-12-04)
+
+
+### Bug Fixes
+
+* canary ([b7953d0](https://github.com/regiszanandrea/fiber-fx/commit/b7953d089061ccf2b2f88558ac4fee3ed072a74c))
+
 ## [1.10.8](https://github.com/regiszanandrea/fiber-fx/compare/1.10.7...1.10.8) (2021-12-04)
 
 
