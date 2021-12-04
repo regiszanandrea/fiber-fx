@@ -1,3 +1,10 @@
+## [1.10.5](https://github.com/regiszanandrea/fiber-fx/compare/1.10.4...1.10.5) (2021-12-04)
+
+
+### Bug Fixes
+
+* remove name on metadata ([7304a63](https://github.com/regiszanandrea/fiber-fx/commit/7304a630f7c1592282e84d490ea0bcfb9a8bd043))
+
 ## [1.10.4](https://github.com/regiszanandrea/fiber-fx/compare/1.10.3...1.10.4) (2021-12-04)
 
 
