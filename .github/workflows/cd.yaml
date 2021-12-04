@@ -33,9 +33,8 @@ jobs:
 
       - name: update k8s
         run: |
-          cd k8s
+          cd k8s/application
           kustomize edit set image fiber-fx=regiszanandrea/fiber-fx:${{steps.tag.outputs.tag}}
-          cat kustomization.yaml
       - name: commit
         run: |
           git config --local user.email "action@github.com"
