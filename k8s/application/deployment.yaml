@@ -29,7 +29,7 @@ spec:
       trafficRouting:
         istio:
           virtualService: 
-            name: fiber-fx-vsvc.istio-system.virtualservice.cluster.local   # required
+            name: fiber-fx-vsvc.istio-system   # required
             routes:
             - primary            # optional if there is a single route in VirtualService, required otherwise
       steps:
