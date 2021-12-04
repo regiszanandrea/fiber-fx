@@ -1,3 +1,10 @@
+## [1.10.3](https://github.com/regiszanandrea/fiber-fx/compare/1.10.2...1.10.3) (2021-12-04)
+
+
+### Bug Fixes
+
+* vsvc cluster ([f7f5747](https://github.com/regiszanandrea/fiber-fx/commit/f7f5747985325ee7c9b97b8a92219210814837eb))
+
 ## [1.10.2](https://github.com/regiszanandrea/fiber-fx/compare/1.10.1...1.10.2) (2021-12-04)
 
 
