@@ -6,7 +6,6 @@ spec:
   replicas: 2
   template:
     metadata:
-      name: fiber-fx
       labels:
         app: fiber-fx
     spec:
