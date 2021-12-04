@@ -29,7 +29,7 @@ spec:
       trafficRouting:
         istio:
           virtualService: 
-            name: rollout-vsvc   # required
+            name: fiber-fx-vsvc   # required
             routes:
             - primary            # optional if there is a single route in VirtualService, required otherwise
       steps:

@@ -17,7 +17,7 @@ spec:
 apiVersion: networking.istio.io/v1alpha3
 kind: VirtualService
 metadata:
-  name: fiber-fx
+  name: fiber-fx-vsvc
   namespace: istio-system
 spec:
   hosts:
