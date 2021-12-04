@@ -32,21 +32,18 @@ spec:
             routes:
             - primary
       steps:
-        - setWeight: 10
-        - pause:
-            duration: 1m
         - setWeight: 20
         - pause:
-            duration: 1m
+            duration: 15s
         - setWeight: 40
         - pause:
-            duration: 1m
-        - setWeight: 60
+            duration: 15s
+        - setWeight: 40
         - pause:
-            duration: 1m
+            duration: 15s
         - setWeight: 80
         - pause:
-            duration: 1m
+            duration: 15s
   selector:
     matchLabels:
       app: fiber-fx
