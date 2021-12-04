@@ -28,12 +28,12 @@ spec:
     - name: primary
       route:
       - destination:
-          host: svc-fiber-fx-stable.fiber-fx.svc.cluster.local # referenced in canary.stableService
+          host: svc-fiber-fx-stable.fiber-fx # referenced in canary.stableService
           port:
             number: 9090
         weight: 100
       - destination:
-          host: svc-fiber-fx-canary.fiber-fx.svc.cluster.local # referenced in canary.canaryService
+          host: svc-fiber-fx-canary.fiber-fx # referenced in canary.canaryService
           port:
             number: 9090
         weight: 0
