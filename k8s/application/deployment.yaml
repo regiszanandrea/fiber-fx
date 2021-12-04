@@ -28,7 +28,7 @@ spec:
       trafficRouting:
         istio:
           virtualService: 
-            name: fiber-fx-vsvc   # required
+            name: fiber-fx-vsvc.istio-system   # required
             routes:
             - primary
       steps:
