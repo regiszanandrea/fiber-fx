@@ -1,5 +1,5 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: argoproj.io/v1alpha1
+kind: Rollout
 metadata:
   name: fiber-fx-deployment
 spec:
@@ -22,6 +22,32 @@ spec:
             limits:
               cpu: "20m"
               memory: "512Mi"
+  strategy:
+    canary:
+      canaryService: svc-fiber-fx-canary  # required
+      stableService: svc-fiber-fx-stable  # required
+      trafficRouting:
+        istio:
+          virtualService: 
+            name: rollout-vsvc   # required
+            routes:
+            - primary            # optional if there is a single route in VirtualService, required otherwise
+      steps:
+        - setWeight: 10
+        - pause:
+            duration: 2m
+        - setWeight: 20
+        - pause: 
+            duration: 1m
+        - setWeight: 40
+        - pause:
+            duration: 1m
+        - setWeight: 60
+        - pause:
+            duration: 2m
+        - setWeight: 80
+        - pause:
+            duration: 1m
   selector:
     matchLabels:
       app: fiber-fx
