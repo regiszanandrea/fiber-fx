@@ -1,3 +1,10 @@
+## [1.10.8](https://github.com/regiszanandrea/fiber-fx/compare/1.10.7...1.10.8) (2021-12-04)
+
+
+### Bug Fixes
+
+* remove cluster ([456f1b7](https://github.com/regiszanandrea/fiber-fx/commit/456f1b779f269681b801bc8a3e6665fd2e9b9db7))
+
 ## [1.10.7](https://github.com/regiszanandrea/fiber-fx/compare/1.10.6...1.10.7) (2021-12-04)
 
 
