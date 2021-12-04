@@ -1,3 +1,10 @@
+# [1.11.0](https://github.com/regiszanandrea/fiber-fx/compare/1.10.11...1.11.0) (2021-12-04)
+
+
+### Features
+
+* change canary deploypment ([0e63392](https://github.com/regiszanandrea/fiber-fx/commit/0e633929716f9bb4a4e0b2ec0107d331d6a0c1a4))
+
 ## [1.10.11](https://github.com/regiszanandrea/fiber-fx/compare/1.10.10...1.10.11) (2021-12-04)
 
 
