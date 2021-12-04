@@ -1,3 +1,10 @@
+## [1.10.4](https://github.com/regiszanandrea/fiber-fx/compare/1.10.3...1.10.4) (2021-12-04)
+
+
+### Bug Fixes
+
+* move back ([e9125bd](https://github.com/regiszanandrea/fiber-fx/commit/e9125bd1487b5c6b4bf5438e4e4ee76ebbc21108))
+
 ## [1.10.3](https://github.com/regiszanandrea/fiber-fx/compare/1.10.2...1.10.3) (2021-12-04)
 
 
