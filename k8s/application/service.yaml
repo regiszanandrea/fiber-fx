@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: svc-fiber-fx-stable
+  name: stable-fiber-fx-svc
 spec:
   ports:
     - name: http-fiber-fx
@@ -13,11 +13,11 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: svc-fiber-fx-canary
+  name: canary-fiber-fx-svc
 spec:
   ports:
-  - name: http-fiber-fx
-    port: 9090
-    targetPort: 8080
+    - name: http-fiber-fx
+      port: 9090
+      targetPort: 8080
   selector:
     app: fiber-fx

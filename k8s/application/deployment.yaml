@@ -23,28 +23,16 @@ spec:
               memory: "512Mi"
   strategy:
     canary:
-      canaryService: svc-fiber-fx-canary  # required
-      stableService: svc-fiber-fx-stable  # required
+      canaryService: canary-fiber-fx-svc  # required
+      stableService: stable-fiber-fx-svc  # required
       trafficRouting:
         istio:
           virtualService: 
-            name: fiber-fx-vsvc.istio-system   # required
+            name: fiber-fx-vsvc   # required
             routes:
-            - primary            # optional if there is a single route in VirtualService, required otherwise
+            - primary
       steps:
-        - setWeight: 10
-        - pause:
-            duration: 2m
-        - setWeight: 20
-        - pause: 
-            duration: 1m
-        - setWeight: 40
-        - pause:
-            duration: 1m
-        - setWeight: 60
-        - pause:
-            duration: 2m
-        - setWeight: 80
+        - setWeight: 50
         - pause:
             duration: 1m
   selector:

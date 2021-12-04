@@ -2,7 +2,7 @@ apiVersion: networking.istio.io/v1alpha3
 kind: Gateway
 metadata:
   name: fiber-fx-gateway
-  namespace: istio-system
+  # namespace: istio-system
 spec:
   selector:
     istio: ingressgateway # use istio default controller
@@ -28,12 +28,12 @@ spec:
     - name: primary
       route:
       - destination:
-          host: svc-fiber-fx-stable.fiber-fx # referenced in canary.stableService
+          host: stable-fiber-fx-svc.fiber-fx # referenced in canary.stableService
           port:
             number: 9090
         weight: 100
       - destination:
-          host: svc-fiber-fx-canary.fiber-fx # referenced in canary.canaryService
+          host: canary-fiber-fx-svc.fiber-fx # referenced in canary.canaryService
           port:
             number: 9090
         weight: 0
