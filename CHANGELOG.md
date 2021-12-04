@@ -1,3 +1,10 @@
+## [1.10.6](https://github.com/regiszanandrea/fiber-fx/compare/1.10.5...1.10.6) (2021-12-04)
+
+
+### Bug Fixes
+
+* add cluster local to vsvc ([9de5315](https://github.com/regiszanandrea/fiber-fx/commit/9de5315828e168ed2ec7912baf6dd90ae6742fc2))
+
 ## [1.10.5](https://github.com/regiszanandrea/fiber-fx/compare/1.10.4...1.10.5) (2021-12-04)
 
 
