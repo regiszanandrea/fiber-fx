@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/regiszanandrea/fiber-fx/compare/1.13.0...1.14.0) (2022-01-13)
+
+
+### Features
+
+* update user name ([857ab41](https://github.com/regiszanandrea/fiber-fx/commit/857ab41c48b89c6668605fc4ad4dbcc7a0d27aed))
+
 # [1.13.0](https://github.com/regiszanandrea/fiber-fx/compare/1.12.0...1.13.0) (2021-12-04)
 
 
