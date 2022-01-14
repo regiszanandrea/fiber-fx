@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/regiszanandrea/fiber-fx/compare/1.15.0...1.16.0) (2022-01-13)
+
+
+### Features
+
+* increase canary deployment time ([e1788c3](https://github.com/regiszanandrea/fiber-fx/commit/e1788c35e1b7db3d07c8dc5307031ebc08a08ee5))
+
 # [1.15.0](https://github.com/regiszanandrea/fiber-fx/compare/1.14.0...1.15.0) (2022-01-13)
 
 
