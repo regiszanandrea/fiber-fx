@@ -1,3 +1,17 @@
+# [1.19.0](https://github.com/regiszanandrea/fiber-fx/compare/1.18.0...1.19.0) (2022-01-16)
+
+
+### Features
+
+* remove go versions on test pipeline ([b385b32](https://github.com/regiszanandrea/fiber-fx/commit/b385b3276c288c6bf58699f00c118e7298661aa8))
+
+# [1.18.0](https://github.com/regiszanandrea/fiber-fx/compare/1.17.0...1.18.0) (2022-01-16)
+
+
+### Features
+
+* rename workflows and add lint ([b444adb](https://github.com/regiszanandrea/fiber-fx/commit/b444adbbb0dfa813d02336e3af96b3705b675533))
+
 # [1.17.0](https://github.com/regiszanandrea/fiber-fx/compare/1.16.0...1.17.0) (2022-01-14)
 
 
