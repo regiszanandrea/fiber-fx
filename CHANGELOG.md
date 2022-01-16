@@ -1,3 +1,10 @@
+## [1.20.2](https://github.com/regiszanandrea/fiber-fx/compare/1.20.1...1.20.2) (2022-01-16)
+
+
+### Bug Fixes
+
+* action name ([283645c](https://github.com/regiszanandrea/fiber-fx/commit/283645c75b420b4210581dc9108c0ab19d34bc99))
+
 ## [1.20.1](https://github.com/regiszanandrea/fiber-fx/compare/1.20.0...1.20.1) (2022-01-16)
 
 
