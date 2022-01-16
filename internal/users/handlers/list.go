@@ -8,7 +8,7 @@ import (
 )
 
 func List(c *fiber.Ctx) error {
-	return c.JSON(fiber.Map{
+	c.JSON(fiber.Map{
 		"name": "john",
 		"age":  20,
 	})
