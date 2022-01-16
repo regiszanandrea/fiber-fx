@@ -1,3 +1,10 @@
+# [1.18.0](https://github.com/regiszanandrea/fiber-fx/compare/1.17.0...1.18.0) (2022-01-16)
+
+
+### Features
+
+* rename workflows and add lint ([b444adb](https://github.com/regiszanandrea/fiber-fx/commit/b444adbbb0dfa813d02336e3af96b3705b675533))
+
 # [1.17.0](https://github.com/regiszanandrea/fiber-fx/compare/1.16.0...1.17.0) (2022-01-14)
 
 
