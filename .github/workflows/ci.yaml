@@ -1,4 +1,4 @@
-name: new-release
+name: ci
 on:
   push:
     branches: [main]
@@ -6,8 +6,23 @@ on:
       - 'CHANGELOG.md'
 
 jobs:
-  build:
-    name: Build
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    steps:
+      
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install Go
+      uses: actions/setup-go@v2
+
+    - name: test
+      run: go test ./...
+
+
+  release:
+    name: Release
     runs-on: ubuntu-latest
     steps:
       - name: checkout
