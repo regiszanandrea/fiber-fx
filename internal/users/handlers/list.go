@@ -22,6 +22,8 @@ func List(c *fiber.Ctx) error {
 
 	m := make(map[string]int)
 
+	z := make(map[string]int)
+
 	m["k1"] = 7
 	m["k2"] = 13
 
