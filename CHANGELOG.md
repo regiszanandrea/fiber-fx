@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/regiszanandrea/fiber-fx/compare/1.20.3...1.21.0) (2022-01-16)
+
+
+### Features
+
+* remove renovate pin versions ([fafdeb1](https://github.com/regiszanandrea/fiber-fx/commit/fafdeb169999aa07877054dd9c6320747943657a))
+
 ## [1.20.3](https://github.com/regiszanandrea/fiber-fx/compare/1.20.2...1.20.3) (2022-01-16)
 
 
