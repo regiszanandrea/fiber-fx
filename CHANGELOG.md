@@ -1,3 +1,10 @@
+## [1.20.1](https://github.com/regiszanandrea/fiber-fx/compare/1.20.0...1.20.1) (2022-01-16)
+
+
+### Bug Fixes
+
+* ci dependency ([603de86](https://github.com/regiszanandrea/fiber-fx/commit/603de86aa1de59341e477352dffd9bdfaef8667b))
+
 # [1.20.0](https://github.com/regiszanandrea/fiber-fx/compare/1.19.0...1.20.0) (2022-01-16)
 
 
