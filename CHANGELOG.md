@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/regiszanandrea/fiber-fx/compare/1.18.0...1.19.0) (2022-01-16)
+
+
+### Features
+
+* remove go versions on test pipeline ([b385b32](https://github.com/regiszanandrea/fiber-fx/commit/b385b3276c288c6bf58699f00c118e7298661aa8))
+
 # [1.18.0](https://github.com/regiszanandrea/fiber-fx/compare/1.17.0...1.18.0) (2022-01-16)
 
 
