@@ -1,3 +1,12 @@
+# [1.20.0](https://github.com/regiszanandrea/fiber-fx/compare/1.19.0...1.20.0) (2022-01-16)
+
+
+### Features
+
+* add link skips ([8e62f13](https://github.com/regiszanandrea/fiber-fx/commit/8e62f13c6119b88bb4902c13563eceab388465d3))
+* add working directory on lint ([9f9787c](https://github.com/regiszanandrea/fiber-fx/commit/9f9787c2e505cb691c9cb092ce6840fc547f1b07))
+* finish actions workflows ([af9ccb8](https://github.com/regiszanandrea/fiber-fx/commit/af9ccb8df3d07449619904cb32803c8286bf75c2))
+
 # [1.19.0](https://github.com/regiszanandrea/fiber-fx/compare/1.18.0...1.19.0) (2022-01-16)
 
 
