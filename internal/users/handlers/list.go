@@ -8,10 +8,6 @@ import (
 )
 
 func List(c *fiber.Ctx) error {
-	c.JSON(fiber.Map{
-		"name": "john",
-		"age":  20,
-	})
 
 	strs := []string{"c", "a", "b"}
 	sort.Strings(strs)
