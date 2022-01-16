@@ -1,4 +1,4 @@
-name: CI
+name: new-release
 on:
   push:
     branches: [main]
