@@ -1,3 +1,10 @@
+## [1.20.3](https://github.com/regiszanandrea/fiber-fx/compare/1.20.2...1.20.3) (2022-01-16)
+
+
+### Bug Fixes
+
+* rename steps ([ccd2aa1](https://github.com/regiszanandrea/fiber-fx/commit/ccd2aa11b2d694f807e7bbaee49550ab9d309daa))
+
 ## [1.20.2](https://github.com/regiszanandrea/fiber-fx/compare/1.20.1...1.20.2) (2022-01-16)
 
 
