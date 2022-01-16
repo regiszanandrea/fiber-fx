@@ -13,15 +13,15 @@ jobs:
     - name: Install Go
       uses: actions/setup-go@v2
 
-    - name: lint
+    - name: Run Lint
       uses: golangci/golangci-lint-action@v2
       with:
         skip-go-installation: true
         skip-pkg-cache: true
         skip-build-cache: true
 
-    - name: test
+    - name: Run Tests
       run: go test ./...
     
-    - name: vet
+    - name: Run vet
       run: go vet ./...
