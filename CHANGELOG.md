@@ -1,3 +1,10 @@
+## [1.21.2](https://github.com/regiszanandrea/fiber-fx/compare/1.21.1...1.21.2) (2022-01-17)
+
+
+### Bug Fixes
+
+* **deps:** update module go.uber.org/fx to v1.16.0 ([b03ffeb](https://github.com/regiszanandrea/fiber-fx/commit/b03ffeb216aabfb8dcfa395b943f92e52ae5bc00))
+
 ## [1.21.1](https://github.com/regiszanandrea/fiber-fx/compare/1.21.0...1.21.1) (2022-01-17)
 
 
