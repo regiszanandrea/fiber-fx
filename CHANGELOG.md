@@ -1,3 +1,10 @@
+## [1.21.3](https://github.com/regiszanandrea/fiber-fx/compare/1.21.2...1.21.3) (2022-01-24)
+
+
+### Bug Fixes
+
+* **deps:** update module github.com/gofiber/fiber/v2 to v2.25.0 ([e99ee1b](https://github.com/regiszanandrea/fiber-fx/commit/e99ee1bdce97eac2cf7303e25300abb982874bcd))
+
 ## [1.21.2](https://github.com/regiszanandrea/fiber-fx/compare/1.21.1...1.21.2) (2022-01-17)
 
 
