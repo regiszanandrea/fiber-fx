@@ -1,6 +1,6 @@
 module regiszanandrea/fiber-fx
 
-go 1.15
+go 1.19
 
 require (
 	github.com/gofiber/fiber/v2 v2.25.0
